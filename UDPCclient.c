@@ -1,6 +1,3 @@
-//Sagar Sangale
-//3172528
-
 
 #include <stdio.h>
 #include <stdlib.h>
