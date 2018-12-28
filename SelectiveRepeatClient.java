@@ -1,11 +1,10 @@
-//Sagar Sangale
-//3172528
+
 
 import java.lang.System;
 import java.net.*;
 import java.io.*;
 
-public class Client
+public class SelectiveRepeatClient
 {
 	static Socket connection;
 	public static void main(String a[]) throws SocketException
