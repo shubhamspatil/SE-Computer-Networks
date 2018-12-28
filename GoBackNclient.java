@@ -1,6 +1,5 @@
 /*    Go-Back Client     */
-//Sagar Sangale
-//3172528
+
 
 import java.io.*;
 import java.net.*;
@@ -8,7 +7,7 @@ import java.math.*;
 import java.util.*;
 
 
-class testclient
+class GoBackNclient
 {
 	public static void main(String args[])throws IOException
 	{
@@ -75,8 +74,8 @@ class testclient
 
 
 /* Output
-dmlsdl@C04L0929:~/GoBackN$ javac testclient.java
-dmlsdl@C04L0929:~/GoBackN$ java testclient
+dmlsdl@C04L0929:~/GoBackN$ javac GoBackNclient.java
+dmlsdl@C04L0929:~/GoBackN$ java GoBackNclient
 Localhost/127.0.0.1
 .......Client........
 Connect
