@@ -1,12 +1,11 @@
 /*    Go back Server    */
-//Sagar Sangale
-//3172528
+
 
 import java.io.*;
 import java.net.*;
 import java.util.*;
 
-class testserver
+class GoBackNserver
 {
 	public static void main(String args[])throws IOException
 	{
@@ -107,8 +106,8 @@ class testserver
 
 /* Output
 
-dmlsdl@C04L0929:~/GoBackN$ javac testserver.java
-dmlsdl@C04L0929:~/GoBackN$ java testserver
+dmlsdl@C04L0929:~/GoBackN$ javac GoBackNserver.java
+dmlsdl@C04L0929:~/GoBackN$ java GoBackNserver
 ...........Server..........
 Waiting for connection....
 Received request for sending frames
