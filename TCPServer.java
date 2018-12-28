@@ -10,7 +10,7 @@ import java.net.Socket;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class ServerDemo {
+public class TCPServer {
 	int port;
 	ServerSocket server = null;
 	Socket client = null;
@@ -19,11 +19,11 @@ public class ServerDemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		ServerDemo serverObject = new ServerDemo(7800);
+		TCPServer serverObject = new TCPServer(7800);
 		serverObject.startServer();
 	}
 
-	public ServerDemo(int port) { // constructor
+	public TCPServer(int port) { // constructor
 		this.port = port;
 		pool = Executors.newFixedThreadPool(5);
 	}
@@ -60,7 +60,7 @@ public class ServerDemo {
 
 class ServerThreadBody implements Runnable {
 
-	ServerDemo server = null;
+	TCPServer server = null;
 	Socket client = null;
 	DataOutputStream dout = null;
 	DataInputStream din = null;
@@ -68,7 +68,7 @@ class ServerThreadBody implements Runnable {
 	ObjectInputStream oin = null;
 	int id;
 
-	ServerThreadBody(Socket client, int id, ServerDemo server) {
+	ServerThreadBody(Socket client, int id, TCPServer server) {
 		// TODO Auto-generated constructor stub
 		this.client = client;
 		this.id = id;
