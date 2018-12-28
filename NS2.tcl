@@ -1,5 +1,4 @@
-// NAME : SAGAR SANGALE
-// ROLL NO : 3172528
+
 
 
 #Create a simulator object
