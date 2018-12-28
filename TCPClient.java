@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.net.Socket;
 import java.util.Scanner;
 
-public class ClientDemo {
+public class TCPClient {
 
 	private static Scanner sc;
 	private static Socket cs;
